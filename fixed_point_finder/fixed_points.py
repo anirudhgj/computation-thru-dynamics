@@ -21,7 +21,8 @@ from scipy.spatial.distance import pdist, squareform
 
 import jax.numpy as np
 from jax import grad, jacrev, jit, lax, random, vmap
-from jax.experimental import optimizers
+# from jax.experimental import optimizers
+from jax.example_libraries import optimizers
 
 import matplotlib.pyplot as plt
 import numpy as onp  # original CPU-backed NumPy
